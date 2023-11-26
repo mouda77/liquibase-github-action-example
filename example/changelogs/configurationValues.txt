@@ -2,6 +2,8 @@
 
 logLevel: info
 changeLogFile: samplechangelog.h2.sql
-url: jdbc:h2:file:./h2tutorial
-username: liquibase
-password: password
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver  
+classpath=sqljdbc41.jar
+url=jdbc:sqlserver://10.1.4.48:1433;databaseName=Test2;integratedSecurity=false;encrypt=false;trustServerCertificate=false;  
+username=sa  
+password=P@ssw0rd   
