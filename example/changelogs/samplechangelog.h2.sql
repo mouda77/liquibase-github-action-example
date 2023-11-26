@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset mohamed.ouda:1
+--changeset mohamed.oudaaa:1
 --rollback DROP TABLE person;
 create table person (
     id int primary key,
